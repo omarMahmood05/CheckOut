@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Sifonn Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sifonn Pro'), url('Fonts/SIFONN_PRO.woff') format('woff');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Sifonn Pro'
+}
+
+nav{
+    background-color: #cae8ff;
+    color: #050a30;
+}

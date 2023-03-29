@@ -369,9 +369,34 @@ nav {
 
 .card {
   width: 100%;
-  height: 75%;
+  height: 90%;
   /* height: 500px; */
+  /* background: linear-gradient(180deg, rgba(150,207,250,1) 0%, rgba(192,226,252,1) 73%, rgba(192,226,252,0) 100%); */
+
+
+  border-radius: 0%;
+  border-width: 2px;
+  border-color:  rgba(150,207,250,1);
+  padding:3%;
+
+  
+}
+
+.card-head{
+  font-size: x-small;
+  padding-right: 30%;
+}
+
+.card-body {
+  width: 100%;
+  height: 90%;
   background: linear-gradient(180deg, rgba(150,207,250,1) 0%, rgba(192,226,252,1) 73%, rgba(192,226,252,0) 100%);
+}
+
+.card-text{
+  font-size: 15px;
+  font-weight: 600;
+  text-align: right;
 }
 
 .card-title{
@@ -380,13 +405,16 @@ nav {
 }
 
 .card-sub-title{
-  font-size: 12px;
+  font-size: small;
   text-transform: uppercase;
 }
 
+
+
 .img-fluid {
-  height: 60%;
+  height: 70%;
   width: fit-content;
   margin: auto;
-  padding: 30px 0px;
+  /* padding: 30px 0px; */
+  /* text-align: center; */
 }

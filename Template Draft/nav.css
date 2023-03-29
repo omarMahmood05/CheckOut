@@ -1,4 +1,5 @@
 * {
+  text-transform: uppercase;
   font-family: "Poppins";
   box-sizing: border-box;
   color: #181823;
@@ -140,6 +141,7 @@ nav {
 }
 
 .mobileCategoriesHeading {
+  font-size: 18px;
   display: none;
 }
 
@@ -152,6 +154,7 @@ nav {
   display: flex;
   /* justify-content: space-between; */
   margin: 51px;
+  margin-bottom: 0px;
   height: 400px;
   /* background-color: red; */
   background-image: url("Images/backgrounds/heroBg.png");
@@ -240,7 +243,7 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 4px;
-    font-size: 0.8rem;
+    font-size: 10px;
   }
 
   .mobileCategoriesImage {
@@ -298,6 +301,8 @@ nav {
 
   .heroBanner {
     background-image: url("Images/HeroImage1Mobile.jpg");
+    background-position: center;
+    padding-left: 20px;
   }
 
   .heroHeading {
@@ -370,22 +375,12 @@ nav {
 .card {
   width: 100%;
   height: 90%;
-  /* height: 500px; */
-  /* background: linear-gradient(180deg, rgba(150,207,250,1) 0%, rgba(192,226,252,1) 73%, rgba(192,226,252,0) 100%); */
-
-
   border-radius: 0%;
   border-width: 2px;
   border-color:  rgba(150,207,250,1);
   padding:3%;
-
-  
 }
 
-.card-head{
-  font-size: x-small;
-  padding-right: 30%;
-}
 
 .card-body {
   width: 100%;
@@ -412,6 +407,7 @@ nav {
 
 
 .img-fluid {
+  padding: 10px 0px;
   height: 70%;
   width: fit-content;
   display: block;
@@ -419,3 +415,16 @@ nav {
   /* padding: 30px 0px; */
   /* text-align: center; */
 }
+
+.card-top-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-comment{
+  font-size: 12px;
+}
+
+
+/* <!-- *START*  -->
+<!-- *END*  --> */

@@ -428,3 +428,13 @@ nav {
 
 /* <!-- *START*  -->
 <!-- *END*  --> */
+
+footer {
+  padding: 0px 51px;
+  margin: 0;
+  background: linear-gradient(to right, rgba(97, 184, 241, 1) 0%, rgba(139, 203, 248, 1) 50%, rgba(87, 157, 215, 1) 100%);
+}
+
+.footer-link {
+  color: black;
+}

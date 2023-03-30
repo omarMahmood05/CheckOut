@@ -157,7 +157,7 @@ nav {
   margin-bottom: 0px;
   height: 400px;
   /* background-color: red; */
-  background-image: url("Images/backgrounds/heroBg.png");
+  background-image: url("../Images/backgrounds/heroBg.png");
   background-size: cover;
 }
 
@@ -253,14 +253,14 @@ nav {
   }
 
   .category-electronics {
-    background-image: url("Images/mobile-categories/electronics2.jpg");
+    background-image: url("../Images/mobile-categories/electronics2.jpg");
     /* background-size: contain; */
     background-position: 55%;
     background-size: 170%;
   }
 
   .category-clothings {
-    background-image: url("Images/mobile-categories/clothings2.jpg");
+    background-image: url("../Images/mobile-categories/clothings2.jpg");
     background-color: #01bae6;
     /* background-size: contain; */
     background-position: 55%;
@@ -270,7 +270,7 @@ nav {
   }
 
   .category-books {
-    background-image: url("Images/mobile-categories/books.webp");
+    background-image: url("../Images/mobile-categories/books.webp");
     background-color: #01bae6;
     background-size: cover;
     background-position: 50%;
@@ -278,7 +278,7 @@ nav {
   }
 
   .category-more {
-    background-image: url("Images/mobile-categories/more.png");
+    background-image: url("../Images/mobile-categories/more.png");
     /* background-color: #01bae6; */
     background-size: cover;
     background-position: 50%;
@@ -300,7 +300,7 @@ nav {
   }
 
   .heroBanner {
-    background-image: url("Images/HeroImage1Mobile.jpg");
+    background-image: url("../Images/HeroImage1Mobile.jpg");
     background-position: center;
     padding-left: 20px;
   }

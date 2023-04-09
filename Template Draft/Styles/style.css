@@ -59,6 +59,7 @@ nav {
 /* *START* Nav > Categories  */
 .categories-div {
   margin: 10px 50px;
+  margin-bottom: 20px;
 }
 
 .categories-list{

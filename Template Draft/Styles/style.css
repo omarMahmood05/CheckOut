@@ -94,21 +94,29 @@ nav {
 /* *END* Nav > Categories  */
 /* *END* Nav */
 
+.search-bar:active + .search-overlay, 
+.search-bar:focus + .search-overlay{
+  position: absolute;
+  height: 60vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.393);
+  backdrop-filter: blur(3rem);
+  z-index: 5;
+}
+
+.search-overlay-active{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.393);
+  backdrop-filter: blur(3rem);
+  z-index: 5;
+}
+
 .margin {
   margin: 0px 50px;
   padding: 0;
 }
-
-/* .heroBanner {
-  display: flex;
-  width: 100%;
-  margin-bottom: 0px;
-  height: 400px;
-  background-image: url("../Images/backgrounds/heroBg.png");
-  background-size: cover;
-  background-color: red;
-}
-*/
 
 .hero-banner{
   height: 400px;

@@ -18,6 +18,10 @@ nav {
   align-items: center;
 }
 
+.fa-star, .fa-star-half-stroke {
+  color: #181823;
+}
+
 .user-section{
   display: flex;
   gap: 30px;
@@ -308,6 +312,12 @@ nav {
 .product-price{
   font-weight: 600;
   font-size: 32px;
+  padding-right: 20px;
+}
+
+.real-price{
+  color: rgb(142, 142, 142);
+  text-decoration: line-through;
 }
 
 .add-to-cart-btn{
@@ -315,14 +325,27 @@ nav {
   width: 50px;
   outline: none;
   border: none;
-  background-color: black;
+  background-color: #181823;
   color: white;
+  transition: all 0.1s ease-out;
+}
+
+.add-to-cart-btn:hover .cart-icon{
+  color: #181823;
+}
+
+.add-to-cart-btn:hover{
+  background-color: #dedede;
 }
 
 .cart-icon{
   color: white;
+  transition: all 0.1s ease-out;
 }
 
+.top-products{
+  margin-bottom: 50px;
+}
 
 
 .heading-bold {

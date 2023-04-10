@@ -10,11 +10,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-  rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-  crossorigin="anonymous"></script>
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/a6b85e4467.js" crossorigin="anonymous"></script>
   <!-- *END* GOOGLE FONTS -->
 
@@ -43,464 +43,443 @@
   <div class="searchOverlay"></div>
   <!-- *END*  SEARCH OVERLAY  -->
 
-
-  <!-- *START* WIDE SCREEN NAV BAR -->
+  <!-- *START* Top Nav Bar -->
   <nav>
-    <div>
-      <ul class="listItems">
-        <li class="listItem"><a href="#">Electronics</a></li>
-        <li class="listItem"><a href="#">Clothings</a></li>
-        <li class="listItem"><a href="#">Books</a></li>
-        <li class="listItem"><a href="#">More</a></li>
-      </ul>
+    <div class="brand-div">
+      <img src="Images/checkout-logo/checkout-logo-nh.png" class="nav-brand-image">
     </div>
-    <img src="Images/checkout-logo/checkout-logo-nh.png" class="logo" height="140px" alt="">
-    <div class="navRight">
-      <div class="searchBar">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" placeholder="Find the needle in haystack. Or just buy a magnet">
+    <div class="user-section">
+      <div class="user-section-items">
+        <i class="fa-regular fa-user"></i>
+        Profile
       </div>
-      <div class="profileAndCart">
-        <div class=" profile">
-        <i class="fa-solid fa-user"></i>
-
-        <span class="userName">OMAR MAHMOOD</span>
+      <div class="user-section-items">
+        <i class="fa-regular fa-heart"></i>
+        Wishlist
       </div>
-      <div class="cart">
-        <i class="fa-solid fa-cart-shopping fa-cart-shopping-nav"></i>
+      <div class="user-section-items">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
       </div>
-
-    </div>
     </div>
   </nav>
-  <!-- *END* WIDE SCREEN NAV BAR -->
+  <!-- *END* Top Nav Bar -->
 
-  <!-- *START* MOBILE NAV BAR -->
-  <nav class="mobileNav">
-    <img src="/Images/checkout-logo/Checkout_Final_Logo-removebg-preview.png" class="moblieLogo" height="140px" alt="">
-    <div class="icons">
-      <i class="fa-solid fa-magnifying-glass mobileIcons"></i>
-      <i class="fa-regular fa-user mobileIcons"></i>
-      <i class="fa-solid fa-cart-shopping mobileIcons"></i>
-    </div>
-  </nav>
-  <!-- *END* MOBILE NAV BAR -->
+  <!-- *START* Search Bar -->
+  <div class="search-bar-div">
+    <input type="text" class="search-bar">
+  </div>
+  <!-- *END* Search Bar -->
+
+  <!-- *START* Categories -->
+  <div class="categories-div">
+    <ul class="categories-list">
+      <li class="category-item"><a href="#" class="category-link">category1</a></li>
+      <li class="category-item"><a href="#" class="category-link">category2</a></li>
+      <li class="category-item"><a href="#" class="category-link">category3</a></li>
+      <li class="category-item"><a href="#" class="category-link">category4</a></li>
+      <li class="category-item"><a href="#" class="category-link">category5</a></li>
+    </ul>
+  </div>
+  <!-- *END* Categories -->
 
 
-  <h3 class="mobileCategoriesHeading">CATEGORIES</h1>
-  <div class="mobileCategories">
-    <div class="mcategories">
-      <div class="mobileCategoriesImage category-electronics"></div>
-      <span class="categoryHeading">Electronics</span>
+  <!-- *START* HERO BANNER -->
+  <div class="hero-banner margin">
+    <div class="hero-image-div">
+      <img class="hero-image" src="Images/HeroImage1.jpg" alt="">
     </div>
-    <div class="mcategories">
-      <div class="mobileCategoriesImage category-clothings"></div>
-      <span class="categoryHeading">Clothings</span>
-    </div>
-    <div class="mcategories">
-      <div class="mobileCategoriesImage category-books"></div>
-      <span class="categoryHeading">Books</span>
-    </div>
-    <div class="mcategories">
-      <div class="mobileCategoriesImage category-more"></div>
-      <span class="categoryHeading">More</span>
+    <div class="hero-text">
+      <h1 class="heroHeading">Sale 65% off on shoes</h1>
+      <h1 class="heroHeading">on popular brands like
+        nike, adidas</h1>
+      <button class="btn btn-xl buyNowButton">Buy now</button>
     </div>
   </div>
+  <!-- *END* HERO BANNER -->
 
-    <!-- *START* HERO BANNER -->
-    <div class="container-fluid">
-      <div class="heroBanner">
-        <img class="heroImage" src="Images/HeroImage1.jpg" alt="">
-        <div class="heroText">
-          <h1 class="heroHeading">Sale 65% off on shoes</h1>
-          <h1 class="heroHeading">on popular brands like
-            nike, adidas</h1>
-          <button class="btn btn-xl buyNowButton">Buy now</button>
-        </div>
-      </div>
-    </div>
-    <!-- *END* HERO BANNER -->
+  <!-- *START* TOP PRODUCTS -->
+  <div class="container-fluid top-products">
+    <!-- CAROUSEL STARTS -->
+    <section class="pt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="mb-3 car-head"><span class="heading-thin">Top</span> <span class="heading-bold">Products</span>
+            </h1>
+          </div>
+          <div class="col-6 text-right">
+            <a class="btn btn-primary mb-3 mr-1 car-nav-btn" href="#carouselExampleIndicators2" role="button"
+              data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn btn-primary mb-3 car-nav-btn " href="#carouselExampleIndicators2" role="button"
+              data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-12">
+            <div id="carouselExampleIndicators2" class="carousel slide">
+              <!-- ADD "data-ride="carousel" TO AUTO SLIDE   -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
 
-    <!-- *START* TOP PRODUCTS -->
-    <div class="container-fluid top-products">
-      <h1> </h1>
-
-      <!-- CAROUSEL STARTS -->
-      <section class="pt-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-6">
-              <h1 class="mb-3 car-head"><span class="heading-thin">Top</span> <span class="heading-bold">Products</span>
-              </h1>
-            </div>
-            <div class="col-6 text-right">
-              <a class="btn btn-primary mb-3 mr-1 car-nav-btn" href="#carouselExampleIndicators2" role="button"
-                data-slide="prev">
-                <i class="fa fa-arrow-left"></i>
-              </a>
-              <a class="btn btn-primary mb-3 car-nav-btn " href="#carouselExampleIndicators2" role="button"
-                data-slide="next">
-                <i class="fa fa-arrow-right"></i>
-              </a>
-            </div>
-            <div class="col-12">
-              <div id="carouselExampleIndicators2" class="carousel slide">
-                <!-- ADD "data-ride="carousel" TO AUTO SLIDE   -->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
-
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★★★</span>
-                            </div>
-                            <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
-                            <h4 class="card-title">Nike Air Force</h4>
-                            <h6 class="card-sub-title">Men's Clothings</h6>
-                            <p class="card-text">₹4,999.00
-                            </p>
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★★★</span>
                           </div>
-
+                          <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
+                          <h4 class="card-title">Nike Air Force</h4>
+                          <h6 class="card-sub-title">Men's Clothings</h6>
+                          <p class="card-text">₹4,999.00
+                          </p>
                         </div>
+
                       </div>
-
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/hoodie.png">
-                            <h4 class="card-title">Purple Hoodie</h4>
-                            <h6 class="card-sub-title">Men's Clothings</h6>
-                            <p class="card-text">₹4,999.00
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
-                            <h4 class="card-title">2</h4>
-                            <p class="card-text">₹4,999.00</p>
-
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
-                            <h4 class="card-title">3</h4>
-                            <p class="card-text">₹4,999.00</p>
-
-                          </div>
-                        </div>
-                      </div>
-
                     </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/hoodie.png">
+                          <h4 class="card-title">Purple Hoodie</h4>
+                          <h6 class="card-sub-title">Men's Clothings</h6>
+                          <p class="card-text">₹4,999.00
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
+                          <h4 class="card-title">2</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
+                          <h4 class="card-title">3</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="carousel-item">
-                    <div class="row">
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
 
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
-                            <h4 class="card-title">Nike Air Force</h4>
-                            <h6 class="card-sub-title">Men's Category</h6>
-                            <p class="card-text">₹4,999.00
-                            </p>
-
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
                           </div>
+                          <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
+                          <h4 class="card-title">Nike Air Force</h4>
+                          <h6 class="card-sub-title">Men's Category</h6>
+                          <p class="card-text">₹4,999.00
+                          </p>
 
                         </div>
+
                       </div>
-
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/hoodie.png">
-                            <h4 class="card-title">2</h4>
-                            <p class="card-text">₹4,999.00</p>
-
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
-                            <h4 class="card-title">2</h4>
-                            <p class="card-text">₹4,999.00</p>
-
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
-                            <h4 class="card-title">3</h4>
-                            <p class="card-text">₹4,999.00</p>
-
-                          </div>
-                        </div>
-                      </div>
-
                     </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/hoodie.png">
+                          <h4 class="card-title">2</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
+                          <h4 class="card-title">2</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
+                          <h4 class="card-title">3</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- CAROUSEL ENDS -->
+      </div>
+    </section>
+    <!-- CAROUSEL ENDS -->
 
-    </div>
-    <!-- *END* TOP PRODUCTS -->
+  </div>
+  <!-- *END* TOP PRODUCTS -->
 
-    <!-- *START* TOP PHONES BANNER -->
-    <div class="container-fluid top-electronics">
-      <div class="heroBanner">
-        <img class="heroImage" src="Images/HeroImage1.jpg" alt="">
-        <div class="heroText">
-          <h1 class="heroHeading">Sale 65% off on shoes</h1>
-          <h1 class="heroHeading">on popular brands like
-            nike, adidas</h1>
-          <button class="btn btn-xl buyNowButton">Buy now</button>
-        </div>
+  <!-- *START* TOP PHONES BANNER -->
+  <div class="container-fluid top-electronics">
+    <div class="heroBanner">
+      <img class="hero-image" src="Images/HeroImage1.jpg" alt="">
+      <div class="hero-text">
+        <h1 class="heroHeading">Sale 65% off on shoes</h1>
+        <h1 class="heroHeading">on popular brands like
+          nike, adidas</h1>
+        <button class="btn btn-xl buyNowButton">Buy now</button>
       </div>
     </div>
-    <!-- *END* TOP PHONES BANNER -->
+  </div>
+  <!-- *END* TOP PHONES BANNER -->
 
 
-    <!-- *START* TOP PHONES -->
-    <div class="container-fluid top-products">
-      <h1> </h1>
-    
-      <!-- CAROUSEL STARTS -->
-      <section class="pt-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-6">
-              <h1 class="mb-3 car-head"><span class="heading-thin">Top</span> <span class="heading-bold">Products</span>
-              </h1>
-            </div>
-            <div class="col-6 text-right">
-              <a class="btn btn-primary mb-3 mr-1 car-nav-btn" href="#carouselExampleIndicators2" role="button"
-                data-slide="prev">
-                <i class="fa fa-arrow-left"></i>
-              </a>
-              <a class="btn btn-primary mb-3 car-nav-btn " href="#carouselExampleIndicators2" role="button"
-                data-slide="next">
-                <i class="fa fa-arrow-right"></i>
-              </a>
-            </div>
-            <div class="col-12">
-              <div id="carouselExampleIndicators2" class="carousel slide">
-                <!-- ADD "data-ride="carousel" TO AUTO SLIDE   -->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★★★</span>
-                            </div>
-                            <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
-                            <h4 class="card-title">Nike Air Force</h4>
-                            <h6 class="card-sub-title">Men's Clothings</h6>
-                            <p class="card-text">₹4,999.00
-                            </p>
+  <!-- *START* TOP PHONES -->
+  <div class="container-fluid top-products">
+    <h1> </h1>
+
+    <!-- CAROUSEL STARTS -->
+    <section class="pt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="mb-3 car-head"><span class="heading-thin">Top</span> <span class="heading-bold">Products</span>
+            </h1>
+          </div>
+          <div class="col-6 text-right">
+            <a class="btn btn-primary mb-3 mr-1 car-nav-btn" href="#carouselExampleIndicators2" role="button"
+              data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn btn-primary mb-3 car-nav-btn " href="#carouselExampleIndicators2" role="button"
+              data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-12">
+            <div id="carouselExampleIndicators2" class="carousel slide">
+              <!-- ADD "data-ride="carousel" TO AUTO SLIDE   -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★★★</span>
                           </div>
-    
+                          <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
+                          <h4 class="card-title">Nike Air Force</h4>
+                          <h6 class="card-sub-title">Men's Clothings</h6>
+                          <p class="card-text">₹4,999.00
+                          </p>
                         </div>
+
                       </div>
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/hoodie.png">
-                            <h4 class="card-title">Purple Hoodie</h4>
-                            <h6 class="card-sub-title">Men's Clothings</h6>
-                            <p class="card-text">₹4,999.00
-                          </div>
-                        </div>
-                      </div>
-    
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
-                            <h4 class="card-title">2</h4>
-                            <p class="card-text">₹4,999.00</p>
-    
-                          </div>
-                        </div>
-                      </div>
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
-                            <h4 class="card-title">3</h4>
-                            <p class="card-text">₹4,999.00</p>
-    
-                          </div>
-                        </div>
-                      </div>
-    
                     </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/hoodie.png">
+                          <h4 class="card-title">Purple Hoodie</h4>
+                          <h6 class="card-sub-title">Men's Clothings</h6>
+                          <p class="card-text">₹4,999.00
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
+                          <h4 class="card-title">2</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
+                          <h4 class="card-title">3</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="carousel-item">
-                    <div class="row">
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
-                            <h4 class="card-title">Nike Air Force</h4>
-                            <h6 class="card-sub-title">Men's Category</h6>
-                            <p class="card-text">₹4,999.00
-                            </p>
-    
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
                           </div>
-    
+                          <img class="img-fluid car-image" alt="100%x280" src="Images/top-products/shoe (1).png">
+                          <h4 class="card-title">Nike Air Force</h4>
+                          <h6 class="card-sub-title">Men's Category</h6>
+                          <p class="card-text">₹4,999.00
+                          </p>
+
                         </div>
+
                       </div>
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/hoodie.png">
-                            <h4 class="card-title">2</h4>
-                            <p class="card-text">₹4,999.00</p>
-    
-                          </div>
-                        </div>
-                      </div>
-    
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
-                            <h4 class="card-title">2</h4>
-                            <p class="card-text">₹4,999.00</p>
-    
-                          </div>
-                        </div>
-                      </div>
-    
-                      <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-top-row">
-                              <span class="card-comment">free shipping</span>
-                              <span class="card-rating">★★★☆☆</span>
-                            </div>
-                            <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
-                            <h4 class="card-title">3</h4>
-                            <p class="card-text">₹4,999.00</p>
-    
-                          </div>
-                        </div>
-                      </div>
-    
                     </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/hoodie.png">
+                          <h4 class="card-title">2</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/shoe (2).png">
+                          <h4 class="card-title">2</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-top-row">
+                            <span class="card-comment">free shipping</span>
+                            <span class="card-rating">★★★☆☆</span>
+                          </div>
+                          <img class="img-fluid" alt="100%x280" src="Images/top-products/watch.png">
+                          <h4 class="card-title">3</h4>
+                          <p class="card-text">₹4,999.00</p>
+
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- CAROUSEL ENDS -->
-    
-    </div>
-      <!-- CAROUSEL ENDS -->
+      </div>
+    </section>
+    <!-- CAROUSEL ENDS -->
 
-    </div>
+  </div>
+  <!-- CAROUSEL ENDS -->
 
-    <!-- *START* FOOTER -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="margin: 0px !important">
-      <p class="col-md-4 mb-0 text-body-secondary">© 2023 checkout.com</p>
-  
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-  
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Creators</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Seller Login</a></li>
-      </ul>
-    </footer>    <!-- *END* FOOTER -->
+  </div>
+
+  <!-- *START* FOOTER -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    style="margin: 0px !important">
+    <p class="col-md-4 mb-0 text-body-secondary">© 2023 checkout.com</p>
+
+    <a href="/"
+      class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Creators</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footer-link">Seller Login</a></li>
+    </ul>
+  </footer> <!-- *END* FOOTER -->
 
 </body>
 

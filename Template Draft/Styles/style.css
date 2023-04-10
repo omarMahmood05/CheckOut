@@ -43,8 +43,17 @@ nav {
 /* *START* Nav > Search  */
 .search-bar-div {
   margin: 0px 50px;
+  position: relative;
   /* paddin */
 }
+
+.search-icon{
+  position: absolute;
+  right: 10px;
+  top: 0;
+  transform: translateY(50%);
+}
+
 
 .search-bar{
   width: 100%;
@@ -58,8 +67,7 @@ nav {
 
 /* *START* Nav > Categories  */
 .categories-div {
-  margin: 10px 50px;
-  margin-bottom: 20px;
+  margin: 20px 50px;
 }
 
 .categories-list{
@@ -170,7 +178,7 @@ nav {
   }
   
   .categories-div {
-    margin: 10px 20px;
+    margin: 20px 20px;
   }
 
   .categories-list{
@@ -245,9 +253,77 @@ nav {
 
 }
 
-.top-products {
-  padding: 0px 51px;
+.row-heading{
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
+
+.row{
+  margin: 0;
+  padding: 0;
+}
+
+.row > * {
+  padding: 0;
+}
+
+.col-lg-3 {
+  min-width: 400px;
+}
+
+.card-rows{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 5px; */
+}
+
+.product-image-div{
+  height: 400px;
+  background-color: blue;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.product-image{
+  width: 100%;
+}
+
+.rating-div{
+  margin: 10px 0px;
+}
+
+.product-desc-div{
+  min-height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name{
+  font-size: 18px;
+}
+
+.product-price{
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.add-to-cart-btn{
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.cart-icon{
+  color: white;
+}
+
+
 
 .heading-bold {
   font-weight: bold;

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body, div, .wrap-login100{
+  background-color: #CAE8FF;
+}
+
+.login-title{
+  font-family: "Poppins";
+  font-weight: 900;
+  color: black;
+  letter-spacing: 6px;
+}
+
+.brand-logo{
+  height: 300px !important;
+  display: block;
+  margin: auto;
+}
